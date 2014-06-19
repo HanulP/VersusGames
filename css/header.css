@@ -1,0 +1,23 @@
+/*Header*/
+.vs-logo{
+	display: block;
+	margin: 0 auto;
+}
+.navbar {
+	background: -webkit-radial-gradient(#FCB924, #FF6666);
+	background: -moz-radial-gradient(#FCB924, #FF6666);
+	background: -o-radial-gradient(#FCB924, #FF6666);
+	background: radial-gradient(#FCB924, #FF6666);
+}
+.navbar-brand, .navbar-nav li a {
+	color: black;
+}
+.navbar-nav li a:hover {
+	color: white;
+	background-color: black;
+}
+#nav.active a{
+	color: white;
+	background-color: black;
+	border-bottom: none;
+}

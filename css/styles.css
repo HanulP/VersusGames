@@ -1,0 +1,41 @@
+@import "header.css";
+@import "body.css";
+@import "home.css";
+
+html {
+	background-color: black;
+}
+body {
+	background-color: black;
+	color: white;
+}
+
+/*About Page*/
+#about {
+	display: none;
+}
+
+@media (max-width: 1200px){
+	h1, p {
+		text-align: center;
+	}	
+	#myCarousel {
+		width: 90%;
+		margin: 0px auto 30px auto;
+	}
+	.container {
+		width: 90%;
+	}
+	.col-lg-4 img{
+		width: 60%;
+	}
+}
+@media (max-width: 1000px){
+	.navbar-fixed-top {
+		margin-bottom: 0px;
+		position: fixed;
+	}
+	#nav {
+		width: 12.5%
+	}
+}

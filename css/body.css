@@ -1,0 +1,25 @@
+/*Body*/
+.container {
+	width: 66.666%;
+}
+/*Carousel*/
+#myCarousel {
+	width: 66.66666%;
+	margin: 30px auto 30px auto;
+}
+.item img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+/*Body cont.*/
+.col-lg-4 img{
+	border-radius: 20px;
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+
+p {
+	font-size: 24px;
+}
